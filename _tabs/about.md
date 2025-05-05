@@ -12,7 +12,7 @@ I'm **Sukrit**, a Cybersecurity Engineer and Consultant with a demonstrated expe
 <table>
   <tr>
     <td align="center">
-      <a href="">
+      <a href="https://credentials.offsec.com/f5be66f5-da61-4429-b0d6-432071f77c21#acc.zEoCh9qS">
         <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/84300472" alt="OSCP Badge" style="width:150px;height:150px;"/><br/>
         Offensive Security Certified Professional (OSCP)
       </a>
