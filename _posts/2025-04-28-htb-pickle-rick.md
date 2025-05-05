@@ -5,7 +5,6 @@ categories: [Writeups, TryHackMe, easy]
 tags: [tryhackme, easy]     # TAG names should always be lowercase
 ---
 
-
 **Title**: Pickle Rick
 
 **Platform**: TryHackMe
@@ -16,9 +15,10 @@ tags: [tryhackme, easy]     # TAG names should always be lowercase
 
 [Pickle Rick Challenge Link](https://tryhackme.com/room/picklerick)
 
-We are big Rick & Morty fans so this was the natural first pick to kick off the write ups! Let’s get Schwiftyyyyyyyy…
+ > [!NOTE]
+ This writeup does not divulge the flags.
 
-`Note: This writeup does not divulge the flags.`
+I am a big Rick & Morty fan so this was the natural first pick to kick off the write ups! Let’s get Schwiftyyyyyyyy…
 
 ## Enumeration
 
@@ -147,11 +147,17 @@ You don't necessarily need to pop a shell, you can get by with command injection
 
 Now for the final ingredient which is root probably we see that the user `www-data`has sudo access and we run sudo -l to see what privileges our user has.
 
-`(ALL) NOPASSWD: ALL`
+```bash
+(ALL) NOPASSWD: ALL
+```
 
 Don't we just love when this happens?
 
-`sudo -i` and we're done.
+```bash
+sudo -i
+```
+
+We are root!
 
 Head to the root directory and we have our final ingredient.
 
