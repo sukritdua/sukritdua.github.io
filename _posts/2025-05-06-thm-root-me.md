@@ -11,7 +11,7 @@ tags: [thm, easy]     # TAG names should always be lowercase
 >
 >**Difficulty**: Easy
 
-<img src= "https://tryhackme-images.s3.amazonaws.com/room-icons/11d59cb34397e986062eb515f4d32421.png" width="250" height="250" > <br>
+<img src= "https://tryhackme-images.s3.amazonaws.com/room-icons/11d59cb34397e986062eb515f4d32421.png" width="250" height="250" alt="challogo.png"> <br>
 [Challenge Link](https://tryhackme.com/room/rrootme)
 
 This is meant to be a basic machine which gets you started with the methodology / process of pwning a box.
@@ -93,13 +93,13 @@ root@ip-10-10-45-183:~# nikto -h http://10.10.9.126
 
 Navigating to the website we see the following
 
-<img src = "https://cdn.hashnode.com/res/hashnode/image/upload/v1705614020436/ca9f1599-47c4-4846-94cb-76d39cfa4533.png" width = 300 height = 200> <br>
+<img src = "https://cdn.hashnode.com/res/hashnode/image/upload/v1705614020436/ca9f1599-47c4-4846-94cb-76d39cfa4533.png" width = 300 height = 200 alt="rootme.png"> <br>
 
 Reviewing the `nikto` results, let’s navigate to the newly discovered directory.
 
 We are greeted with an upload form...(\*laughs in evil\*)
 
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1705614135646/ba53492d-917e-4179-8330-58576428cc2d.png" width=600 height=350> <br>
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1705614135646/ba53492d-917e-4179-8330-58576428cc2d.png" width=600 height=350 alt="logo.png"> <br>
 
 As mentioned earlier this is a very basic box meant to walk you through the typical process for exploiting a linux system with **common vulnerabilities** and **known exploits**.
 
@@ -115,7 +115,7 @@ Once uploaded, we notice the response “PHP not permitted”. Let’s inspect t
 
 Let’s rename the file to `shell.php%00` and we see it uploads and it does! We get a success message, looking at the response we can see the location where our `php` file is stored. Let’s navigate to it..
 
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1705614453165/b54b8051-b7cd-4967-80bd-26423a7461bd.png" width=500 height=250> <br> 
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1705614453165/b54b8051-b7cd-4967-80bd-26423a7461bd.png" width=500 height=250 alt="uploads.png"> <br> 
 
 Clicking on our uploaded shell throws an error (uh oh...) let's dive into it.
 

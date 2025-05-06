@@ -13,7 +13,7 @@ tags: [tryhackme, easy]     # TAG names should always be lowercase
 >
 >**Objective**: Root the box and gain access to the three ingredients to turn Rick back into a human from a pickle.
 
-<img src= "https://tryhackme-images.s3.amazonaws.com/room-icons/47d2d3ade1795f81a155d0aca6e4da96.jpeg" width="250" height="250" > <br>
+<img src= "https://tryhackme-images.s3.amazonaws.com/room-icons/47d2d3ade1795f81a155d0aca6e4da96.jpeg" width="250" height="250" alt=logo.png> <br>
 
 [Challenge Link](https://tryhackme.com/room/picklerick)
 
