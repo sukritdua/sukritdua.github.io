@@ -13,7 +13,7 @@ tags: [htb, easy]     # TAG names should always be lowercase
 >
 >**Objective**: Root the box and gain access to the three ingredients to turn Rick back into a human from a pickle.
 
-<img src= "https://labs.hackthebox.com/storage/avatars/2c3df5ec98bea78159400b5b4f6474ab.png" width="250" height="250" alt=logo.png> <br>
+<img src= "https://labs.hackthebox.com/storage/avatars/2c3df5ec98bea78159400b5b4f6474ab.png" width="250" height="250" alt="logo1.png"> <br>
 
 [Challenge Link](https://www.hackthebox.com/machines/explore)
 
