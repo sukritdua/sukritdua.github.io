@@ -16,7 +16,7 @@ timezone:
 
 title: Sukrit Dua # the main title
 
-tagline: Cybersecurity Professional (s1l3ntk1ll3r) # it will display as the subtitle
+tagline: Cybersecurity Professional # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Cybersecurity ramblings
@@ -89,7 +89,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: dark
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url

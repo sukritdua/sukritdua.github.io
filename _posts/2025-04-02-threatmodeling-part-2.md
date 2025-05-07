@@ -5,7 +5,7 @@ categories: [Series, Threat Modeling]
 tags: [threatmodeling, threatdragon, owasp]     # TAG names should always be lowercase
 ---
 
-# What will we learn?
+## What will we learn?
 
 * Trust Boundaries
     
@@ -16,7 +16,7 @@ tags: [threatmodeling, threatdragon, owasp]     # TAG names should always be low
 * What to ask yourself as you begin threat modeling
     
 
-# Questions to ask yourself when you start (4Qs by Adam Shostack)
+## Questions to ask yourself when you start (4Qs by Adam Shostack)
 
 * What are you working on? Scope
     
@@ -74,7 +74,7 @@ Create Zones instead of boundaries by marking 0 (low trust) - 9 (high trust).
 
 Anywhere the trust zones change is where the potential risks will exist.
 
-# Tools:
+## Tools
 
 You can pretty much use a pen and paper/whiteboard or MS Paint for threat modeling, however there are some tools out there that can help make the process easier especially for documentation and threat generation.
 
@@ -83,11 +83,11 @@ You can pretty much use a pen and paper/whiteboard or MS Paint for threat modeli
 * Microsoft Threat Modeling Tool ([https://aka.ms/threatmodelingtool](https://aka.ms/threatmodelingtool)) - **Recommended**
     
 
-## Sample Threat model in OWASP Threat Dragon
+### Sample Threat model in OWASP Threat Dragon
 
 <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1738615773689/020cb938-509c-4a7e-97a2-0e7f4df34e12.png" width="550" height="400" alt="threatdragon.png">
 
-## Sample Threat model in Microsoft Threat modeling tool
+### Sample Threat model in Microsoft Threat modeling tool
 
 <img src="https://camo.githubusercontent.com/4ca11d257d54a450821970964d19b8c29b48abeac2ac7350004e00d3d232ccf2/68747470733a2f2f692e696d6775722e636f6d2f4d366f37774a542e706e67" width="950" height="450" alt="mttm.png">
 

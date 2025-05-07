@@ -5,12 +5,12 @@ categories: [Series,Threat Modeling]
 tags: [threatmodeling, threatdragon, owasp, stride]     # TAG names should always be lowercase
 ---
 
-# What will we learn?
+## What will we learn?
 
 * Well….STRIDE!
     
 
-# STRIDE
+## STRIDE
 
 Microsoft developed this methodology in the early 2000s. This methodology shows that nearly all the threats you can think of will fall under one or more of these
 
@@ -88,13 +88,14 @@ Attack against Availability. Typically network focused attack but also against d
 
 Done against processes. Use a lower privileged user to vertically or horizontally increase privileges to increase the scope of the attack and gain higher privileges.
 
-# Speed up your Threat Modeling
+## Speed up your Threat Modeling
 
 <img src="https://shostack.org/blog/img/2024/stride-per-element.png" width="600" height="300" alt>
 
 This handy little chart from Adam Shostack talks about the *typical* threat categories based on the element in question.
 
-# Example: Simple Threat Model
+## Example
+### Example: Simple Threat Model
 
 System: User uploads data to a file server.
 
@@ -102,6 +103,14 @@ System: User uploads data to a file server.
 
 Let’s put on our STRIDE hats and start documenting all the threats that come to mind based on what we understood earlier.
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Threat Scenario</strong></p></td><td colspan="1" rowspan="1"><p><strong>STRIDE Categories</strong></p></td><td colspan="1" rowspan="1"><p><strong>Severity</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p>Upload Malware to File server</p></td><td colspan="1" rowspan="1"><p>E, D</p></td><td colspan="1" rowspan="1"><p>Critical</p></td></tr><tr><td colspan="1" rowspan="1"><p>Upload a Shell to File Server and gain persistent access</p></td><td colspan="1" rowspan="1"><p>E, ID</p></td><td colspan="1" rowspan="1"><p>Critical</p></td></tr><tr><td colspan="1" rowspan="1"><p>Upload a huge file and trigger DoS</p></td><td colspan="1" rowspan="1"><p>D</p></td><td colspan="1" rowspan="1"><p>High</p></td></tr><tr><td colspan="1" rowspan="1"><p>Overwhelm Application with multiple file uploads at the same time, triggering DoS</p></td><td colspan="1" rowspan="1"><p>D</p></td><td colspan="1" rowspan="1"><p>High</p></td></tr><tr><td colspan="1" rowspan="1"><p>Based on save operation, attacker could trigger command injection on upload, to delete files or content on the server</p></td><td colspan="1" rowspan="1"><p>D, E</p></td><td colspan="1" rowspan="1"><p>Critical</p></td></tr><tr><td colspan="1" rowspan="1"><p>Intercept the uploaded data / Network Sniffing to steal data</p></td><td colspan="1" rowspan="1"><p>I</p></td><td colspan="1" rowspan="1"><p>High</p></td></tr></tbody></table>
+|     |     |     |
+| --- | --- | --- |
+| **Threat Scenario** | **STRIDE Categories** | **Severity** |
+| Upload Malware to File server | E, D | Critical |
+| Upload a Shell to File Server and gain persistent access | E, ID | Critical |
+| Upload a huge file and trigger DoS | D   | High |
+| Overwhelm Application with multiple file uploads at the same time, triggering DoS | D   | High |
+| Based on save operation, attacker could trigger command injection on upload, to delete files or content on the server | D, E | Critical |
+| Intercept the uploaded data / Network Sniffing to steal data | I   | High |
 
 That’s all folks! See you in the next one.

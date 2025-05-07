@@ -5,14 +5,14 @@ categories: [Series, Threat Modeling]
 tags: [threatmodeling]     # TAG names should always be lowercase
 ---
 
-# What will we learn?
+## What will we learn?
 
 * What is Threat modeling?
     
 * Threat modeling jargon - attack vectors, impact, severity, attack surface, and so on.
     
 
-# Threat Modeling
+## Threat Modeling
 
 It’s simply a structured approach to pre-empt or identify risks that may exist in your system and you can build your security program around this instead of blindly following industry checklists. We try to answer questions such as what can go wrong, are we protected in that case, and how can we improve our security.
 
@@ -27,7 +27,7 @@ Our **aim** while building a threat model is to
 * Identify controls and measures for addressing the risks
     
 
-# TM Jargon
+## TM Jargon
 
 1. Threat - Any potential danger or malicious action that can cause harm
     
@@ -44,7 +44,7 @@ Our **aim** while building a threat model is to
 7. Attack vector - Method/Technique used to perform an attack
     
 
-# Introduction of Vulnerabilities in our system
+## Introduction of Vulnerabilities in our system
 
 In a typical SDLC, if vulnerabilities are introduced during the initial design review phase is termed as a flaw.
 
@@ -52,7 +52,7 @@ The same vulnerabilities introduced in the Dev or deployment stage found are cal
 
 Side note: As you can understand, findings issues as early as possible will save more money, time and effort. Threat modeling helps in exposing potential flaws in the early stages.
 
-# Impact and Likelihood
+## Impact and Likelihood
 
 Our two favorite terms in cybersecurity!
 
@@ -68,7 +68,7 @@ Risk is *typically* calculated by an **Impact vs Likelihood** matrix.
 
 Risk helps with assessing potential damage and ways to manage it.
 
-# Risk Management
+## Risk Management
 
 The 4 Ts of Risk management are:
 
@@ -81,7 +81,7 @@ The 4 Ts of Risk management are:
 4. Tolerate it - Acceptance
     
 
-## Treating and Transferring Risks
+### Treating and Transferring Risks
 
 * Preventive - Encryption, Access control etc.
     

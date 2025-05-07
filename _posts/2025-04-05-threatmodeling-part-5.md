@@ -5,7 +5,7 @@ categories: [Series, Threat Modeling]
 tags: [threatmodeling, threatdragon, owasp, stride]     # TAG names should always be lowercase
 ---
 
-# What will we learn?
+## What will we learn?
 
 * Microsoft Threat Modeling Tool Basics
     
@@ -16,19 +16,19 @@ tags: [threatmodeling, threatdragon, owasp, stride]     # TAG names should alway
 * It’s a wrap on this series!
     
 
-# Threat Modeling - Microsoft TMMT
+## Threat Modeling - Microsoft TMMT
 
 Download Link - [https://aka.ms/threatmodelingtool](https://aka.ms/threatmodelingtool)
 
 Once you have it installed and ready to go let’s begin with a simple web application.
 
-## Scenario
+### Scenario
 
 Here is our basic web application scenario drawn out in Lucidchart (another tool that can be used for threat modeling).
 
 <img src= "https://cdn.hashnode.com/res/hashnode/image/upload/v1739986794223/8a44520f-f5bf-4178-bed3-2178fdb38a4c.png" width="850" height = "225" alt="tmmt1.png">
 
-## Instructions
+### Instructions
 
 ```plaintext
 1. Start by opening up the newly installed Microsoft Threat Modeling Tool
@@ -60,7 +60,7 @@ Clicking on the individual threat opens up the threat properties as shown. We ca
 
 The next step here would be to add context, custom attributes, custom threats (within templates), trust zones/boundaries, and enrich this diagram further.
 
-### Report Generation
+## Report Generation
 
 `‘Report’ > Generate Report`
 
@@ -70,7 +70,7 @@ We can drill down to individual data flows to understand the generated threats a
 
 <img src= "https://cdn.hashnode.com/res/hashnode/image/upload/v1739987584552/d4fcf60a-214b-412e-8f88-93385dd854ca.png" width="750" height = "425" alt="tmmt6.png">
 
-# Conclusion
+## Conclusion
 
 This series was a very watered down and high level entry into Threat modeling. I would recommend trying out Threat modeling with this tool and reading up the following:
 
