@@ -98,7 +98,7 @@ This handy little chart from Adam Shostack talks about the *typical* threat cate
 
 System: User uploads data to a file server.
 
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1738702487140/5e43fc09-ef99-42a9-8eb4-1e6eaf069bd0.png">
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1738702487140/5e43fc09-ef99-42a9-8eb4-1e6eaf069bd0.png" alt="tm.png">
 
 Let’s put on our STRIDE hats and start documenting all the threats that come to mind based on what we understood earlier.
 
